@@ -1,0 +1,23 @@
+{
+   "type":"record",
+   "name":"CDR",
+   "namespace":"citypro.edge.avro",
+   "fields":[
+      {
+         "name":"ID",
+         "type":"string"
+      },
+      {
+         "name":"CALLING_NUM",
+         "type":"string"
+      },
+      {
+          "name":"CALLED_NUM",
+           "type":"string"
+      },
+      {
+           "name":"START_TIME_I",
+            "type":"long"
+      }
+   ]
+}

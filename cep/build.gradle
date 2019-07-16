@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.kotlin.jvm'
+}
+
+group 'citypro'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://maven.wso2.org/nexus/content/repositories/releases/'
+    }
+    maven {
+        url 'https://dist.wso2.org/maven2/'
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    implementation group: 'io.siddhi', name: 'siddhi-core', version: '5.1.0'
+    implementation group: 'io.siddhi', name: 'siddhi-annotations', version: '5.1.0'
+// https://mvnrepository.com/artifact/io.siddhi/siddhi-query-api
+    implementation group: 'io.siddhi', name: 'siddhi-query-api', version: '5.1.0'
+// https://mvnrepository.com/artifact/io.siddhi/siddhi-query-compiler
+    implementation group: 'io.siddhi', name: 'siddhi-query-compiler', version: '5.1.0'
+    // https://mvnrepository.com/artifact/io.siddhi.extension.execution.string/siddhi-execution-string
+    compile group: 'io.siddhi.extension.execution.string', name: 'siddhi-execution-string', version: '5.0.3'
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+compileTestKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
