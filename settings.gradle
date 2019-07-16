@@ -2,3 +2,5 @@ rootProject.name = 'edge'
 include 'cep'
 include 's_port'
 include 'cachefs'
+include 'd_port'
+
