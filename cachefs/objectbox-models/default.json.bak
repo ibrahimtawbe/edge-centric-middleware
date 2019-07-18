@@ -5,7 +5,7 @@
   "entities": [
     {
       "id": "1:8023422852936958901",
-      "lastPropertyId": "6:4758565889738218747",
+      "lastPropertyId": "5:161498826455405282",
       "name": "Record",
       "properties": [
         {
@@ -27,10 +27,6 @@
         {
           "id": "5:161498826455405282",
           "name": "START_TIME_I"
-        },
-        {
-          "id": "6:4758565889738218747",
-          "name": "INSERT_TIME"
         }
       ],
       "relations": []

@@ -1,3 +1,7 @@
 dport: 2001
 sport: 2000
 host: '127.0.0.1'
+batchInterval: 1 # in minutes
+brokerTopicBatch: 'tel-p1-cdr'
+brokerServer: 'localhost'
+brokerPort: '9092'
