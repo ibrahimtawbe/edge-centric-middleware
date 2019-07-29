@@ -42,6 +42,7 @@ val yaml = Yaml()
 val confObj: Map<String, Any> = yaml.load(File("conf/conf.yaml").inputStream())
 
 val brokerTopicBatch: String = confObj["brokerTopicBatch"] as String
+val brokerTopicAlert: String = confObj["brokerTopicAlert"] as String
 
 var store = MyObjectBox.builder().name("objectbox-cachefs-db").build()
 val box: Box<Record> = store.boxFor()
