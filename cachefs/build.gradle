@@ -7,6 +7,7 @@ buildscript {
     dependencies {
         classpath "net.ltgt.gradle:gradle-apt-plugin:0.20"
         classpath "io.objectbox:objectbox-gradle-plugin:$objectboxVersion"
+        classpath 'com.github.jengelman.gradle.plugins:shadow:4.0.4'
     }
 }
 
@@ -15,6 +16,7 @@ plugins {
     id 'org.jetbrains.kotlin.jvm'
 }
 
+apply plugin: 'com.github.johnrengelman.shadow'
 apply plugin: 'kotlin-kapt' // if using Kotlin
 apply plugin: 'net.ltgt.apt-idea' // annotation processor plugin
 apply plugin: 'io.objectbox'

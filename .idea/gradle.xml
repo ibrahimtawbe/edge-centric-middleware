@@ -9,6 +9,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/admin_channel" />
             <option value="$PROJECT_DIR$/batcher" />
             <option value="$PROJECT_DIR$/cachefs" />
             <option value="$PROJECT_DIR$/cep" />

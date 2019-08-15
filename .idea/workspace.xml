@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="edge.admin_channel.main:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c0a5780b-e39f-4eed-b1b2-3d0402f9a5cc" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,6 +21,8 @@
     <ignored path="$PROJECT_DIR$/d_port/build/" />
     <ignored path="$PROJECT_DIR$/batcher/.gradle/" />
     <ignored path="$PROJECT_DIR$/batcher/build/" />
+    <ignored path="$PROJECT_DIR$/admin_channel/.gradle/" />
+    <ignored path="$PROJECT_DIR$/admin_channel/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +64,32 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="edge" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="edge" type="f1a62948:ProjectNode" />
+                <item name="d_port" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="edge" type="f1a62948:ProjectNode" />
+                <item name="d_port" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="edge" type="f1a62948:ProjectNode" />
+                <item name="d_port" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="edge" type="f1a62948:ProjectNode" />
+                <item name="d_port" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -66,61 +99,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cachefs/src/main/kotlin/Main.kt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin_channel/src/main/kotlin/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="75" column="87" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="87" />
+            <state relative-caret-position="274">
+              <caret line="86" column="28" lean-forward="true" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
               <folding>
-                <element signature="e#21#516#0" expanded="true" />
+                <element signature="e#15#361#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cachefs/build.gradle">
+        <entry file="file://$PROJECT_DIR$/d_port/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="13" />
+            <state relative-caret-position="226">
+              <caret line="23" column="41" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cep/build.gradle">
+        <entry file="file://$PROJECT_DIR$/d_port/src/main/resources/META-INF/MANIFEST.MF">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+            <state relative-caret-position="198">
+              <caret line="59" column="51" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/s_port/src/main/kotlin/Main.kt">
+        <entry file="file://$PROJECT_DIR$/d_port/src/main/java/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="44" column="65" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
+            <state relative-caret-position="101">
+              <caret line="109" selection-start-line="109" selection-end-line="109" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/conf.yaml">
+        <entry file="file://$PROJECT_DIR$/d_port/src/main/java/main/IPCMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cep/src/main/kotlin/Main.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            <state relative-caret-position="95">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
-                <element signature="e#61#394#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin_channel/src/main/java/admin_ipc/IPCMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#514#515#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#1673#1674#0" expanded="true" />
+                <element signature="e#1697#1698#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,6 +180,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -141,9 +190,12 @@
       <find>cdrEncoder</find>
       <find>pojo</find>
       <find>CDR</find>
+      <find>batc</find>
+      <find>yaml</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Ibrahim\Desktop\m2\thesis\edge\d_port</dir>
+      <dir>C:\Users\Ibrahim\Desktop\m2\thesis\edge\out\artifacts\edge_batcher_main_jar</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -154,25 +206,34 @@
       <list>
         <option value="$PROJECT_DIR$/cep/src/main/Main.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/Main.kt" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/conf/cdr.avsc" />
-        <option value="$PROJECT_DIR$/s_port/build.gradle" />
         <option value="$PROJECT_DIR$/s_port/src/main/kotlin/Main.kt" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/d_port/src/main/java/CDR.java" />
         <option value="$PROJECT_DIR$/d_port/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/reports/started_calls.xml" />
         <option value="$PROJECT_DIR$/d_port/src/main/java/pojo/CDR.java" />
-        <option value="$PROJECT_DIR$/d_port/src/main/java/main/Main.java" />
-        <option value="$PROJECT_DIR$/d_port/build.gradle" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/batcher/build.gradle" />
-        <option value="$PROJECT_DIR$/batcher/src/main/kotlin/Main.kt" />
-        <option value="$PROJECT_DIR$/cachefs/build.gradle" />
-        <option value="$PROJECT_DIR$/conf/conf.yaml" />
         <option value="$PROJECT_DIR$/cachefs/src/main/kotlin/Main.kt" />
+        <option value="$PROJECT_DIR$/s_port/build.gradle" />
+        <option value="$PROJECT_DIR$/cachefs/build.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/cep/build.gradle" />
         <option value="$PROJECT_DIR$/cep/src/main/kotlin/Main.kt" />
+        <option value="$PROJECT_DIR$/s_port/src/main/resources/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/batcher/src/main/kotlin/Main.kt" />
+        <option value="$PROJECT_DIR$/batcher/build.gradle" />
+        <option value="$PROJECT_DIR$/batcher/src/main/resources/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/conf/conf.yaml" />
+        <option value="$PROJECT_DIR$/d_port/src/main/java/main/ST_PARSER.java" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/admin_channel/build.gradle" />
+        <option value="$PROJECT_DIR$/d_port/build.gradle" />
+        <option value="$PROJECT_DIR$/admin_channel/src/main/java/IPCMessage.java" />
+        <option value="$PROJECT_DIR$/d_port/src/main/java/main/IPCMessage.java" />
+        <option value="$PROJECT_DIR$/admin_channel/src/main/java/admin_ipc/IPCMessage.java" />
+        <option value="$PROJECT_DIR$/d_port/src/main/java/main/Main.java" />
+        <option value="$PROJECT_DIR$/d_port/src/main/resources/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/admin_channel/src/main/kotlin/Main.kt" />
       </list>
     </option>
   </component>
@@ -183,8 +244,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="20" />
-    <option name="y" value="14" />
+    <option name="x" value="-8" />
+    <option name="y" value="3" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -194,7 +255,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -206,34 +266,125 @@
             <path>
               <item name="edge" type="b2602c69:ProjectViewProjectNode" />
               <item name="edge" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="cachefs" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="admin_channel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="edge" type="b2602c69:ProjectViewProjectNode" />
               <item name="edge" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="cachefs" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="admin_channel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edge" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="admin_channel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="edge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edge" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="admin_channel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edge" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="admin_channel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edge" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="d_port" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="edge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edge" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="d_port" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="jars" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edge" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="d_port" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edge" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="d_port" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="edge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edge" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="d_port" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edge" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="d_port" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edge" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="d_port" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edge" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="d_port" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/d_port/src/main/java" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/admin_channel/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin_channel/src/main/resources" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30735293" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Ibrahim\Desktop\m2\thesis\edge\d_port\src\main\java" />
       <recent name="C:\Users\Ibrahim\Desktop\m2\thesis\edge\d_port" />
+      <recent name="C:\Users\Ibrahim\Desktop\m2\thesis\edge\admin_channel\jars" />
+      <recent name="C:\Users\Ibrahim\Desktop\m2\thesis\edge\out\artifacts\edge_s_port_main_jar" />
+      <recent name="C:\Users\Ibrahim\Desktop\m2\thesis\edge\s_port\build\libs" />
+      <recent name="C:\Users\Ibrahim\Desktop\m2\thesis\edge\d_port\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="pojo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -253,46 +404,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.main.MainKt (1)">
-    <configuration name="edge:batcher [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/batcher" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="edge.d_port.main" />
+      <option name="PROGRAM_PARAMETERS" value="--sessionId=26663337-3129-4ab7-86a3-78e78b4ec329 reports\started_calls.xml '01-258825'" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="edge:batcher [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/batcher" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="edge:cachefs [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="edge:cachefs [shadowJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/cachefs" />
@@ -303,7 +430,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value="shadowJar" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -311,59 +438,65 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="edge.batcher.main" />
+    <configuration name="edge:s_port [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/s_port" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="admin.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="edge.admin_channel.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <option name="MAIN_CLASS_NAME" value="admin.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main.MainKt (1)" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="edge.s_port.main" />
+    <configuration name="cepmain.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="edge.cep.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="main.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="cepmain.MainKt" />
       <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="edge.s_port.main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="reports\started_calls.xml '01-258825'" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="main.MainKt" />
-      <option name="WORKING_DIRECTORY" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.edge:batcher [clean]" />
-      <item itemvalue="Gradle.edge:batcher [build]" />
-      <item itemvalue="Gradle.edge:cachefs [build]" />
-      <item itemvalue="Kotlin.MainKt" />
-      <item itemvalue="Kotlin.main.MainKt (1)" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Gradle.edge:s_port [jar]" />
+      <item itemvalue="Gradle.edge:cachefs [shadowJar]" />
+      <item itemvalue="Kotlin.cepmain.MainKt" />
+      <item itemvalue="Kotlin.admin.MainKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.main.MainKt (1)" />
-        <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Gradle.edge:cachefs [build]" />
-        <item itemvalue="Gradle.edge:batcher [build]" />
-        <item itemvalue="Gradle.edge:batcher [clean]" />
+        <item itemvalue="Kotlin.admin.MainKt" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.edge:cachefs [shadowJar]" />
+        <item itemvalue="Kotlin.cepmain.MainKt" />
+        <item itemvalue="Gradle.edge:s_port [jar]" />
       </list>
     </recent_temporary>
   </component>
@@ -388,29 +521,31 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22390318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1898527" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1767594" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3797054" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" weight="0.049099836" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.46644846" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.2405892" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" weight="0.32980332" />
-      <window_info anchor="right" id="Gradle" order="5" weight="0.08623298" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.25189108" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
     <layout-to-restore>
@@ -451,12 +586,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/s_port/src/main/kotlin/Main.kt</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/s_port/src/main/kotlin/Main.kt</url>
           <line>87</line>
           <properties />
           <option name="timeStamp" value="7" />
@@ -473,11 +602,41 @@
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/admin_channel/src/main/kotlin/Main.kt</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/admin_channel/src/main/kotlin/Main.kt</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/d_port/src/main/java/main/ST_PARSER.java</url>
-          <line>14</line>
+          <line>22</line>
           <properties />
-          <option name="timeStamp" value="15" />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/d_port/src/main/java/main/Main.java</url>
+          <line>109</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/d_port/src/main/java/main/IPCMessage.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/d_port/src/main/java/main/IPCMessage.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -562,112 +721,220 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/d_port/src/main/java/main/ST_PARSER.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reports/started_calls.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
+    <entry file="file://$PROJECT_DIR$/s_port/build/libs/conf/cdr.avsc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/edge_s_port_main_jar/conf/cdr.avsc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cachefs/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <caret line="35" column="48" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/d_port/build.gradle">
+    <entry file="file://$PROJECT_DIR$/cep/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/d_port/src/main/java/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="78" column="35" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/s_port/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batcher/src/main/kotlin/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/conf.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batcher/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="697">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cachefs/src/main/kotlin/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="75" column="87" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="87" />
+        <state relative-caret-position="884">
+          <caret line="64" column="7" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="12" />
           <folding>
             <element signature="e#21#516#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cachefs/build.gradle">
+    <entry file="file://$PROJECT_DIR$/cep/src/main/kotlin/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="13" />
+        <state relative-caret-position="311">
+          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding>
+            <element signature="e#16#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batcher/src/main/kotlin/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#9#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batcher/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s_port/src/main/resources/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="87" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/s_port/src/main/kotlin/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="44" column="65" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
+        <state relative-caret-position="153">
+          <caret line="30" column="66" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cep/build.gradle">
+    <entry file="file://$PROJECT_DIR$/batcher/src/main/resources/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        <state relative-caret-position="34">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cep/src/main/kotlin/Main.kt">
+    <entry file="file://$PROJECT_DIR$/conf/conf.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        <state relative-caret-position="170">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s_port/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/admin_channel/jars/mappedbus-0.5.1.jar!/io/mappedbus/MappedBusWriter.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/admin_channel/jars/mappedbus-0.5.1.jar!/io/mappedbus/MemoryMappedFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
           <folding>
-            <element signature="e#61#394#0" expanded="true" />
+            <element signature="e#1828#1829#0" expanded="true" />
+            <element signature="e#2440#2441#0" expanded="true" />
+            <element signature="e#2491#2492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/admin_channel/jars/mappedbus-0.5.1.jar!/io/mappedbus/MappedBusReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin_channel/src/main/java/admin_ipc/IPCMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#1673#1674#0" expanded="true" />
+            <element signature="e#1697#1698#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="353" column="23" selection-start-line="353" selection-start-column="23" selection-end-line="353" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin_channel/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d_port/src/main/java/main/ST_PARSER.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d_port/src/main/java/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d_port/src/main/java/main/IPCMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d_port/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d_port/src/main/resources/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="59" column="51" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin_channel/src/main/resources/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin_channel/src/main/kotlin/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="86" column="28" lean-forward="true" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
+          <folding>
+            <element signature="e#15#361#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -681,10 +948,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>edge.admin_channel.main:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.30735293" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -692,10 +961,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>Kotlin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.30735293" />
               </list>
             </option>
           </splitter-proportions>
@@ -725,7 +995,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>d_port|edge</last-edited>
+          <last-edited>admin_channel</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

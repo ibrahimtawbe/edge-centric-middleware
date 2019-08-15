@@ -1,0 +1,102 @@
+<component name="ArtifactManager">
+  <artifact name="edge.s_port.main:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/edge_s_port_main_jar</output-path>
+    <root id="root">
+      <element id="archive" name="edge.s_port.main.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/s_port/src/main/resources/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="edge.s_port.main" />
+        <element id="module-output" name="edge.cachefs.main" />
+        <element id="module-output" name="edge.cep.main" />
+      </element>
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlinx:atomicfu-common:0.12.9" />
+      <element id="library" level="project" name="Gradle: com.google.errorprone:error_prone_annotations:2.0.18" />
+      <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.9.1" />
+      <element id="library" level="project" name="Gradle: org.greenrobot:essentials:3.0.0-RC1" />
+      <element id="library" level="project" name="Gradle: org.codehaus.mojo:animal-sniffer-annotations:1.14" />
+      <element id="library" level="project" name="Gradle: com.google.code.gson:gson:2.8.5" />
+      <element id="library" level="project" name="Gradle: com.101tec:zkclient:0.8" />
+      <element id="library" level="project" name="Gradle: org.quartz-scheduler.wso2:quartz:2.1.1.wso2v1" />
+      <element id="library" level="project" name="Gradle: io.siddhi.extension.io.kafka:siddhi-io-kafka:5.0.2" />
+      <element id="library" level="project" name="Gradle: org.quartz-scheduler:quartz:2.1.1" />
+      <element id="library" level="project" name="Gradle: org.scala-lang:scala-library:2.11.8" />
+      <element id="library" level="project" name="Gradle: io.siddhi.extension.execution.string:siddhi-execution-string:5.0.3" />
+      <element id="library" level="project" name="Gradle: io.siddhi:siddhi-core:5.0.0" />
+      <element id="library" level="project" name="Gradle: io.objectbox:objectbox-kotlin:2.3.4" />
+      <element id="library" level="project" name="Gradle: com.google.guava:guava:23.0" />
+      <element id="library" level="project" name="Gradle: c3p0:c3p0:0.9.1.1" />
+      <element id="library" level="project" name="Gradle: org.apache.kafka:kafka_2.11:0.10.0.0" />
+      <element id="library" level="project" name="Gradle: org.osgi:org.osgi.core:6.0.0" />
+      <element id="library" level="project" name="Gradle: org.scala-lang.modules:scala-parser-combinators_2.11:1.0.4" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlinx:kotlinx-io-jvm:0.1.10" />
+      <element id="library" level="project" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" />
+      <element id="library" level="project" name="Gradle: io.siddhi.extension.map.json:siddhi-map-json:5.0.3" />
+      <element id="library" level="project" name="Gradle: org.atteo.classindex:classindex:3.6" />
+      <element id="library" level="project" name="Gradle: io.objectbox:objectbox-linux:2.3.4" />
+      <element id="library" level="project" name="Gradle: com.yammer.metrics:metrics-core:2.2.0" />
+      <element id="library" level="project" name="Gradle: io.siddhi:siddhi-annotations:5.0.0" />
+      <element id="library" level="project" name="Gradle: net.minidev:json-smart:2.3" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlinx:kotlinx-io:0.1.10" />
+      <element id="library" level="project" name="Gradle: io.siddhi:siddhi-query-api:5.1.0" />
+      <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.9" />
+      <element id="library" level="project" name="Gradle: org.apache.curator:curator-test:2.7.1" />
+      <element id="library" level="project" name="Gradle: io.dropwizard.metrics:metrics-core:3.1.0" />
+      <element id="library" level="project" name="Gradle: org.apache.commons:commons-compress:1.18" />
+      <element id="library" level="project" name="Gradle: org.eclipse.osgi:org.eclipse.osgi.services:3.3.100.v20130513-1956" />
+      <element id="library" level="project" name="Gradle: junit:junit:3.8.1" />
+      <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.26" />
+      <element id="library" level="project" name="Gradle: io.objectbox:objectbox-java-api:2.3.4" />
+      <element id="library" level="project" name="Gradle: org.slf4j:slf4j-simple:1.7.12" />
+      <element id="library" level="project" name="Gradle: org.mvel:mvel2:2.4.4.Final" />
+      <element id="library" level="project" name="Gradle: org.slf4j:slf4j-log4j12:1.7.21" />
+      <element id="library" level="project" name="Gradle: com.google.flatbuffers:flatbuffers-java:1.9.0" />
+      <element id="library" level="project" name="Gradle: org.apache.commons:commons-math:2.2" />
+      <element id="library" level="project" name="Gradle: org.apache.log4j.wso2:log4j:1.2.17.wso2v1" />
+      <element id="library" level="project" name="Gradle: org.xerial.snappy:snappy-java:1.1.7.3" />
+      <element id="library" level="project" name="Gradle: io.netty:netty:3.7.0.Final" />
+      <element id="library" level="project" name="Gradle: net.minidev:accessors-smart:1.2" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-io:0.1.10" />
+      <element id="library" level="project" name="Gradle: org.javassist:javassist:3.18.1-GA" />
+      <element id="library" level="project" name="Gradle: io.ktor:ktor-utils-jvm:1.2.2" />
+      <element id="library" level="project" name="Gradle: log4j:log4j:1.2.17" />
+      <element id="library" level="project" name="Gradle: org.apache.zookeeper:zookeeper:3.4.6" />
+      <element id="library" level="project" name="Gradle: io.siddhi:siddhi-annotations:5.1.0" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlinx:atomicfu:0.12.9" />
+      <element id="library" level="project" name="Gradle: com.google.j2objc:j2objc-annotations:1.1" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.41" />
+      <element id="library" level="project" name="Gradle: org.wso2.orbit.org.apache.tapestry:tapestry-json:5.4.1.wso2v1" />
+      <element id="library" level="project" name="Gradle: org.antlr:antlr4-runtime:4.7.2" />
+      <element id="library" level="project" name="Gradle: io.ktor:ktor-http-jvm:1.2.2" />
+      <element id="library" level="project" name="Gradle: io.objectbox:objectbox-windows:2.3.4" />
+      <element id="library" level="project" name="Gradle: org.lz4:lz4-java:1.6.0" />
+      <element id="library" level="project" name="Gradle: io.ktor:ktor-server-core:1.2.2" />
+      <element id="library" level="project" name="Gradle: org.apache.kafka:kafka-clients:2.3.0" />
+      <element id="library" level="project" name="Gradle: io.siddhi:siddhi-query-api:5.0.0" />
+      <element id="library" level="project" name="Gradle: org.apache.avro:avro:1.9.0" />
+      <element id="library" level="project" name="Gradle: com.typesafe:config:1.3.1" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.41" />
+      <element id="library" level="project" name="Gradle: io.siddhi:siddhi-query-compiler:5.0.0" />
+      <element id="library" level="project" name="Gradle: net.sf.jopt-simple:jopt-simple:4.9" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.3.40" />
+      <element id="library" level="project" name="Gradle: org.wso2.orbit.com.lmax:disruptor:3.4.2.wso2v1" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.2.2" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-io-jvm:0.1.10" />
+      <element id="library" level="project" name="Gradle: jline:jline:0.9.94" />
+      <element id="library" level="project" name="Gradle: org.jetbrains:annotations:13.0" />
+      <element id="library" level="project" name="Gradle: io.siddhi:siddhi-core:5.1.0" />
+      <element id="library" level="project" name="Gradle: org.yaml:snakeyaml:1.24" />
+      <element id="library" level="project" name="Gradle: io.siddhi:siddhi-query-compiler:5.1.0" />
+      <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.9" />
+      <element id="library" level="project" name="Gradle: io.objectbox:objectbox-java:2.3.4" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.41" />
+      <element id="library" level="project" name="Gradle: io.ktor:ktor-network:1.2.2" />
+      <element id="library" level="project" name="Gradle: com.jayway.jsonpath:json-path:2.4.0" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.2.2" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.41" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.0-M2" />
+      <element id="library" level="project" name="Gradle: com.github.luben:zstd-jni:1.4.0-1" />
+      <element id="library" level="project" name="Gradle: org.ow2.asm:asm:5.0.4" />
+    </root>
+  </artifact>
+</component>

@@ -4,4 +4,5 @@ include 's_port'
 include 'cachefs'
 include 'd_port'
 include 'batcher'
+include 'admin_channel'
 

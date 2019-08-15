@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Class-Path: atomicfu-common-0.12.9.jar error_prone_annotations-2.0.18.
+ jar jackson-databind-2.9.9.1.jar essentials-3.0.0-RC1.jar animal-snif
+ fer-annotations-1.14.jar gson-2.8.5.jar zkclient-0.8.jar quartz-2.1.1
+ .wso2v1.jar siddhi-io-kafka-5.0.2.jar quartz-2.1.1.jar scala-library-
+ 2.11.8.jar siddhi-execution-string-5.0.3.jar siddhi-core-5.0.0.jar ob
+ jectbox-kotlin-2.3.4.jar guava-23.0.jar c3p0-0.9.1.1.jar kafka_2.11-0
+ .10.0.0.jar org.osgi.core-6.0.0.jar scala-parser-combinators_2.11-1.0
+ .4.jar kotlinx-io-jvm-0.1.10.jar jsr305-3.0.2.jar siddhi-map-json-5.0
+ .3.jar classindex-3.6.jar objectbox-linux-2.3.4.jar metrics-core-2.2.
+ 0.jar siddhi-annotations-5.0.0.jar json-smart-2.3.jar kotlinx-io-0.1.
+ 10.jar siddhi-query-api-5.1.0.jar jackson-core-2.9.9.jar curator-test
+ -2.7.1.jar metrics-core-3.1.0.jar commons-compress-1.18.jar org.eclip
+ se.osgi.services-3.3.100.v20130513-1956.jar junit-3.8.1.jar slf4j-api
+ -1.7.26.jar objectbox-java-api-2.3.4.jar slf4j-simple-1.7.12.jar mvel
+ 2-2.4.4.Final.jar slf4j-log4j12-1.7.21.jar flatbuffers-java-1.9.0.jar
+  commons-math-2.2.jar log4j-1.2.17.wso2v1.jar snappy-java-1.1.7.3.jar
+  netty-3.7.0.Final.jar accessors-smart-1.2.jar kotlinx-coroutines-io-
+ 0.1.10.jar javassist-3.18.1-GA.jar ktor-utils-jvm-1.2.2.jar log4j-1.2
+ .17.jar zookeeper-3.4.6.jar siddhi-annotations-5.1.0.jar atomicfu-0.1
+ 2.9.jar j2objc-annotations-1.1.jar kotlin-stdlib-common-1.3.41.jar ta
+ pestry-json-5.4.1.wso2v1.jar antlr4-runtime-4.7.2.jar ktor-http-jvm-1
+ .2.2.jar objectbox-windows-2.3.4.jar lz4-java-1.6.0.jar ktor-server-c
+ ore-1.2.2.jar kafka-clients-2.3.0.jar siddhi-query-api-5.0.0.jar avro
+ -1.9.0.jar config-1.3.1.jar kotlin-stdlib-jdk8-1.3.41.jar siddhi-quer
+ y-compiler-5.0.0.jar jopt-simple-4.9.jar kotlin-reflect-1.3.40.jar di
+ sruptor-3.4.2.wso2v1.jar kotlinx-coroutines-core-common-1.2.2.jar kot
+ linx-coroutines-io-jvm-0.1.10.jar jline-0.9.94.jar annotations-13.0.j
+ ar siddhi-core-5.1.0.jar snakeyaml-1.24.jar siddhi-query-compiler-5.1
+ .0.jar jackson-annotations-2.9.9.jar objectbox-java-2.3.4.jar kotlin-
+ stdlib-1.3.41.jar ktor-network-1.2.2.jar json-path-2.4.0.jar kotlinx-
+ coroutines-jdk8-1.2.2.jar kotlin-stdlib-jdk7-1.3.41.jar kotlinx-corou
+ tines-core-1.3.0-M2.jar zstd-jni-1.4.0-1.jar asm-5.0.4.jar objectbox-linux-arm-2.4.jar
+Main-Class: main.MainKt
+

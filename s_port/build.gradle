@@ -4,6 +4,7 @@ buildscript {
 }
 
 plugins {
+    id 'com.github.johnrengelman.shadow' version '4.0.4'
     id 'java'
     id 'org.jetbrains.kotlin.jvm'
 }
@@ -22,7 +23,12 @@ repositories {
     maven {
         url 'https://dist.wso2.org/maven2/'
     }
+}
 
+jar {
+    manifest {
+        attributes 'Main-Class': 'main.MainKt'
+    }
 }
 
 dependencies {

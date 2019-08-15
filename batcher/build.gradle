@@ -13,6 +13,12 @@ repositories {
     jcenter()
 }
 
+jar {
+    manifest {
+        attributes 'Main-Class': 'batchermain.MainKt'
+    }
+}
+
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
     implementation group: 'org.yaml', name: 'snakeyaml', version: '1.24'

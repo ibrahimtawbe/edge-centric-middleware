@@ -64,3 +64,7 @@ fun stopCEP() {
     //Shutdown Siddhi Manager
     siddhiManager.shutdown();
 }
+
+fun main(args: Array<String>) {
+    println("OKAYYYY")
+}

@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Class-Path: commons-math-2.2.jar quartz-2.1.1.jar kotlin-stdlib-1.3.41
+ .jar json-path-2.4.0.jar siddhi-map-json-5.0.3.jar animal-sniffer-ann
+ otations-1.14.jar jopt-simple-4.9.jar zookeeper-3.4.6.jar classindex-
+ 3.6.jar metrics-core-2.2.0.jar lz4-1.3.0.jar mvel2-2.4.4.Final.jar or
+ g.eclipse.osgi.services-3.3.100.v20130513-1956.jar asm-5.0.4.jar j2ob
+ jc-annotations-1.1.jar gson-2.8.5.jar kotlin-stdlib-jdk8-1.3.41.jar s
+ iddhi-execution-string-5.0.3.jar siddhi-annotations-5.1.0.jar kotlin-
+ stdlib-common-1.3.41.jar kafka-clients-0.10.0.0.jar error_prone_annot
+ ations-2.0.18.jar quartz-2.1.1.wso2v1.jar log4j-1.2.17.wso2v1.jar kot
+ lin-stdlib-jdk7-1.3.41.jar annotations-13.0.jar metrics-core-3.1.0.ja
+ r c3p0-0.9.1.1.jar guava-23.0.jar siddhi-core-5.1.0.jar slf4j-log4j12
+ -1.7.21.jar jsr305-1.3.9.jar scala-parser-combinators_2.11-1.0.4.jar 
+ jackson-annotations-2.7.0.jar junit-3.8.1.jar accessors-smart-1.2.jar
+  siddhi-query-compiler-5.1.0.jar scala-library-2.11.8.jar netty-3.7.0
+ .Final.jar log4j-1.2.17.jar antlr4-runtime-4.7.2.jar javassist-3.18.1
+ -GA.jar kafka_2.11-0.10.0.0.jar siddhi-query-api-5.1.0.jar snappy-jav
+ a-1.1.2.4.jar zkclient-0.8.jar disruptor-3.4.2.wso2v1.jar org.osgi.co
+ re-6.0.0.jar jline-0.9.94.jar siddhi-io-kafka-5.0.2.jar slf4j-simple-
+ 1.7.12.jar tapestry-json-5.4.1.wso2v1.jar slf4j-api-1.7.25.jar curato
+ r-test-2.7.1.jar json-smart-2.3.jar jackson-core-2.7.4.jar snakeyaml-
+ 1.24.jar jackson-databind-2.7.4.jar
+Main-Class: main.MainKt
+
