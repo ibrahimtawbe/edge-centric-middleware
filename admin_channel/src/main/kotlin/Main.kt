@@ -72,7 +72,7 @@ fun parseMessage(message: String, sessionId: String) {
     println(clientMessage)
     when(clientMessage!!.type) {
         "report" -> {
-            val command = "java -Xmx512m -jar edge.d_port.main.jar --sessionId=$sessionId reports${File.separator}${clientMessage.query}.xml \"${clientMessage.params}\" "
+            val command = "java -Xmx512m -jar edge.d_port.main.jar --sessionId=$sessionId reports${File.separator}${clientMessage.query}.xml ${clientMessage.params} "
             println(command)
             val process = Runtime.getRuntime().exec(command)
             var line: String

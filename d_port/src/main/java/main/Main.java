@@ -101,7 +101,7 @@ public class Main implements Callable<Integer> {
             if (System.getProperty("os.name").toLowerCase().contains("win")) {
                 writer = new MappedBusWriter("c:\\tmp\\adminChannel", 200000L, 10000);
             } else {
-                writer = new MappedBusWriter("/tmp/adminChannel" + sessionId, 200000L, 10000);
+                writer = new MappedBusWriter("/tmp/adminChannel", 200000L, 10000);
             }
             writer.open();
             IPCMessage ipcMessage = new IPCMessage();

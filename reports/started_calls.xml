@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='utf-8'?>
-
 <report name="started_calls.xml">
     <query text="SELECT CALLED_NUM from FROM CDR WHERE CALLING_NUM = $0">
         <inputs>
